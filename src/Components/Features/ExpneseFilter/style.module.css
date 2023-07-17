@@ -1,0 +1,26 @@
+.filter-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.filter-data .no-record {
+    background-color: rgb(230, 81, 81);
+    color: #eee;
+}
+
+.filter-data select {
+    background-color: #EFECFF;
+    border: 1px solid #A97EFF;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.filter-data option {
+    border: 1px solid #A97EFF;
+}
+
+.filter-data select:focus {
+    outline: none;
+}

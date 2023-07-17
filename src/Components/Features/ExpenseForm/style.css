@@ -1,0 +1,51 @@
+.expense-form {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.expense-form h4 {
+    margin-bottom: 2rem;
+    color: #000;
+}
+
+.expense-form form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+}
+
+.expense-form form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #000;
+}
+
+.expense-form form input {
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #A97EFF;
+    background: #EFECFF;
+    border-radius: 0.25rem;
+}
+
+.expense-form form .btn {
+    grid-column: 2 / span 1;
+    justify-self: end;
+    align-self: flex-end;
+    cursor: pointer;
+    transition: all 0.25s ease-in;
+    border: none;
+    background-color: #EFECFF;
+    border-radius: 1.5rem;
+    padding: 0.7rem 1rem;
+}
+
+.expense-form form .btn:hover {
+    background-color: #A97EFF;
+    color: #fff;
+}
+
+.expense-form form input:focus {
+    outline: none;
+}
